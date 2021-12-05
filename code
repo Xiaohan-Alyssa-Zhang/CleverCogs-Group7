@@ -1,8 +1,0 @@
-sex_map = {'Female': 'F',
-           'Male': 'M',
-           'Unspecified':'U'}
-for i in user['Gender'].keys():
-    if user['Gender'][i] in sex_map:
-        user['Gender'][i] = sex_map[user['Gender'][i]]
-        
-      
